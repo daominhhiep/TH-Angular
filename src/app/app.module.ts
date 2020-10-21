@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppFontSizeComponent } from './app-font-size/app-font-size.component';
 import {FormsModule} from '@angular/forms';
+import { PetComponent } from './pet/pet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppFontSizeComponent
+    AppFontSizeComponent,
+    PetComponent
   ],
     imports: [
         BrowserModule,

@@ -2,11 +2,12 @@
 
 <div>
   <label>Input:</label>
-  <input name="text" [(ngModel)]="text"/>
+  <input class="form-control col-md-1" name="text" [(ngModel)]="text"/>
 </div>
 <div>
   <label>Enter font size (px):</label>
-  <input type="range" min="9" max="72" value="18" [(ngModel)]="fontSize">
+  <input class="form-control col-1" type="range" min="9" max="72" value="18" [(ngModel)]="fontSize">
 </div>
 
 <p class="output" [style.fontSize.px]="fontSize">{{text}}</p>
+
