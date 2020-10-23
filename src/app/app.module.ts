@@ -6,13 +6,15 @@ import { AppFontSizeComponent } from './app-font-size/app-font-size.component';
 import {FormsModule} from '@angular/forms';
 import { PetComponent } from './pet/pet.component';
 import { NameCardComponent } from './name-card/name-card.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppFontSizeComponent,
     PetComponent,
-    NameCardComponent
+    NameCardComponent,
+    ProgressBarComponent
   ],
     imports: [
         BrowserModule,
